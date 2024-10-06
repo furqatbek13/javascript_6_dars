@@ -617,3 +617,140 @@
 // 7-misol
 
 
+
+
+
+
+
+
+
+// let ism = "o'zbekiston vatanim meni";
+// console.log(ism.slice(-7));
+// let ism2 = ism.substring(0, 4);
+// console.log(ism2);
+
+// console.log(ism.replace("o'zbekiston", "vatanim"));
+// console.log(ism.replaceAll("o'zbekiston",  "yurtim"));
+
+
+// let ism ="shahzod"
+// let ism2 = "yomon bola"
+// console.log(ism.concat(" ", ism2));
+
+// let ism = "       uzb     "
+// console.log(ism.trim());  
+// console.log(ism.trimStart());
+// console.log(ism.trimEnd());  
+
+
+// let son = "7";
+// console.log(son.padStart(5, "9"));
+// console.log(son.padEnd(5, "9"));
+
+
+
+
+// let ism = 'javascript '
+// console.log(ism.repeat(5));
+
+
+
+// let  ism = "yurtim senga sher bitdim bugun";
+// console.log(ism.split(' '));
+
+
+// let str = `
+// shahzodbek
+// mirjalol
+// demir
+// asadbek
+// furqatbek
+// maqsadbek
+// numukhammad
+// `;
+// console.log(str.split( `\n`));
+
+// let str = "paython ,java,javascript,react,angular, nodejs";
+// console.log(str.includes("java"));
+// console.log(str.startsWith("parthon"));
+// console.log(str.endsWith("angular"));
+// console.log(str.indexOf("java"));
+// console.log(str.lastIndexOf("java"));
+// let regex =  /nodejs/g;
+// console.log(str.match(regex));
+// console.log(regex.test("nodejs", "javascript"));
+
+
+
+
+
+// let fruitArray = ['olma', 'anor', 'gilos'];
+// for (let i = 0; i < fruitArray.length; i++) {
+//     console.log(fruitArray[i]);
+// }
+
+
+// for( let i in fruitArray){
+//     console.log(fruitArray[i]);
+// }
+
+
+// for( value of fruitArray){
+//     console.log(value);
+// }
+
+
+//join
+// console.log(fruitArray.join(' & '));
+
+
+// push vs pop-oxri bilan ishlidi
+//shift vs unshift-boshi bilan ishlidi
+
+
+
+// let fruitsArray = ['olma', 'anor', 'nok', 'gilos','uzum','ananas','banan'];
+// let fruts = ['moshina']
+// for (let i = 0; i < fruitsArray.length; i++) {
+//     fruts.push(fruitsArray[i])  
+// }
+// console.log(fruts);
+
+
+// let num = [1,2,3]
+// num.reverse();
+// console.log(num);
+
+
+// let fruitsArray = ['olma', 'anor', 'nok', 'gilos', 'uzum', 'malina', 'qulupnay'];
+// fruitsArray.splice(4,1);
+// fruitsArray.splice(2,1,  'ananas');
+// fruitsArray.splice(4,0, 'tarvuz');
+// console.log(fruitsArray);
+
+//fill-to'ldiradi va qoshadi
+
+// let fruitsArray = ['olma', 'anor', 'nok', 'gilos', 'uzum', 'malina', 'qulupnay'].fill("no value",  2, 4);
+// console.log(fruitsArray);
+
+//slice -kopiaravat
+
+// let fruitsArray = ['olma', 'anor', 'nok', 'gilos', 'uzum', 'malina', 'qulupnay'];
+// let x = fruitsArray.slice(0, 3);
+// console.log(x);
+
+
+
+// let fruitsArray = ['olma', 'anor', 'nok', 'gilos', 'uzum', 'malina', 'qulupnay'];
+// fruitsArray.splice(fruitsArray.indexOf('malina'), 1,  'ananas', 'limon' );
+// console.log(fruitsArray);
+
+
+
+// concat-qoshish
+// let num1 = [1,2,3];
+// let num2 = [4,5,6];
+// let num3 = num1.concat(num2)
+// console.log(num3);
+
+
